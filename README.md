@@ -1,5 +1,7 @@
 # micro-solidity
 
+[![Node.js CI](https://github.com/Akagi201/micro-solidity/actions/workflows/ci.yml/badge.svg)](https://github.com/Akagi201/micro-solidity/actions/workflows/ci.yml)
+
 Solidity boilerplate code
 
 ## Features
