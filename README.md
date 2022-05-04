@@ -16,6 +16,7 @@ Solidity boilerplate code
 - [x] [Hardhat](https://hardhat.org/) - Solidity development enviroment
 - [x] [Ethers.js](https://ethers.org/) - Ethereum RPC Javascript client
 - [x] [Solhint](https://github.com/protofire/solhint) - linting utility for Solidity code
+- [ ] [slither](https://github.com/crytic/slither) - Static Analyzer for Solidity
 
 ## Etherscan verification
 
