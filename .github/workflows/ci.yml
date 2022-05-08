@@ -36,9 +36,6 @@ jobs:
 
       - name: slither
         uses: crytic/slither-action@v0.1.1
-        with:
-          target: 'contracts/'
-        continue-on-error: true
 
       - name: npm test
         run: npm test

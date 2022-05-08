@@ -18,6 +18,7 @@
     "prettier-fix": "prettier '**/*.{json,sol,md}' --write",
     "solhint": "solhint 'contracts/**/*.sol'",
     "solhint-fix": "solhint 'contracts/**/*.sol' --fix",
+    "slither": "slither .",
     "sort-package": "sort-package-json",
     "test": "hardhat test",
     "ts-deploy": "TS_NODE_FILES=true ts-node scripts/deploy.ts"
