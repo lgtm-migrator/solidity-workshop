@@ -7,7 +7,7 @@ pragma solidity ^0.8.13;
 contract CrowdFunding {
   address immutable owner;
 
-  constructor() public {
+  constructor() {
     owner = msg.sender;
   }
 
