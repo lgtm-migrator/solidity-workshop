@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: Unlicense
 // 创建不同的募资活动, 用来募集以太坊
 // 记录响应活动下的墨子总体信息(参与人数, 募集的以太坊数量), 以及记录参与的用户地址以及投入的数量
 // 业务逻辑 (用户参与, 添加新的募集活动, 活动结束后进行资金领取)

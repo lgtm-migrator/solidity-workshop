@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: Apache-2.0
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.13;
 
 contract SimpleStorage {
   // 状态变量
   address public owner;
-  uint storedData;
+  uint256 storedData;
 
   // 结构类型
   struct SimpleInfo {
-    uint amount;
-    addrss account;
+    uint256 amount;
+    address account;
   }
 
   // 枚举类型
   enum SimpleState {
     Created,
     Locked,
-    Inactive,
+    Inactive
   }
 
-  constructor() public {
+  constructor() {
     owner = msg.sender;
   }
 
@@ -30,16 +30,16 @@ contract SimpleStorage {
   }
 
   // 事件
-  event Update(uint value);
+  event Update(uint256 value);
 
   // 修改函数
-  function set(uint x) external onlyOwner {
+  function set(uint256 x) external onlyOwner {
     storedData = x;
     emit Update(x);
   }
 
   // 只读函数
-  function get() external view returns (uint) {
+  function get() external view returns (uint256) {
     return storedData;
   }
 }
