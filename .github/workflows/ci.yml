@@ -35,7 +35,7 @@ jobs:
         run: npm run lint --if-present
 
       - name: slither
-        uses: crytic/slither-action@v0.1.1
+        uses: crytic/slither-action@v0.2.0
 
       - name: npm test
         run: npm test
